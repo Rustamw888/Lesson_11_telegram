@@ -1,0 +1,16 @@
+{
+  "base": {
+    "project": "${JOB_BASE_NAME}",
+    "environment": "PROD",
+    "comment": "link to pull request",
+    "reportLink": "${BUILD_URL}",
+    "language": "en",
+    "allureFolder": "allure-report/",
+    "enableChart": true
+  },
+  "telegram": {
+    "token": "xxxAAHNLA75Wb2AgFbqjvqlLEIKRWRuoZIdGe4",
+    "chat": "-1001713084594",
+    "replyTo": ""
+  }
+}
